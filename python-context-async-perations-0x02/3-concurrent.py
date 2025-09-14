@@ -1,9 +1,13 @@
-Instructions:
+#Instructions:
 
-    Use the aiosqlite library to interact with SQLite asynchronously. To learn more about it, click here.
+#    Use the aiosqlite library to interact with SQLite asynchronously. To learn more about it, click here.
 
-    Write two asynchronous functions: async_fetch_users() and async_fetch_older_users() that fetches all users and users older than 40 respectively.
+#    Write two asynchronous functions: async_fetch_users() and async_fetch_older_users() that fetches all users and users older than 40 respectively.
 
-    Use the asyncio.gather() to execute both queries concurrently.
+#    Use the asyncio.gather() to execute both queries concurrently.
 
-    Use asyncio.run(fetch_concurrently()) to run the concurrent fetch
+#    Use asyncio.run(fetch_concurrently()) to run the concurrent fetch
+
+#["import aiosqlite", "connect"]
+#["async def async_fetch_users()", "async def async_fetch_older_users()", "return", "await"]
+#["await asyncio.gather"]
